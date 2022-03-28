@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    background-image: url(./../assets/blankDesktop.png);
+}
+
+main {
+    margin-top:150px;
+}
+
+:root {
+    --color1: #5D5C61;
+    --color2: #73827f;
+    --color3: #7395AE;
+    --color4: #557A95;
+    --color5: #B1A296;
+    --primaryFont: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    color: var(--color5);
+}
+
+
+h2 {
+    color: var(--color5);
+}
+
+h3 {
+    color: var(--color1);
+}
+
+p {
+    color: #557A95;
+}
+
+strong {
+    color: #4b6c84;
+}
+
+.flex {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}

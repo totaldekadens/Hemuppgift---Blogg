@@ -1,0 +1,33 @@
+main {
+    margin-top: 150px;
+    align-items: center;
+}
+
+.postPic {
+    width: 150px;
+}
+
+.postPic img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.contentPost {
+    width: 60vw;
+}
+
+.post {
+    gap: 20px;
+}
+
+.back {
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.back img {
+    width: 30px;
+    object-fit: contain;
+}

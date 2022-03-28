@@ -1,0 +1,21 @@
+
+footer { 
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding-bottom: 20px;
+}
+
+.box {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.contact img {
+    width: 50px;
+    object-fit: contain;
+}
+
+
+

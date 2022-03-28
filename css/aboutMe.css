@@ -1,0 +1,29 @@
+main {
+    margin-top: 110px;
+}
+
+.profilePic {
+    width: 160px;
+}
+
+.profilePic img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.aboutMeContainer {
+    gap: 20px;
+    padding: 20px;
+}
+
+.content {
+    min-width: 250px;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgb(167, 167, 167);
+}
+
+p {
+    margin-top: 0px;
+}
