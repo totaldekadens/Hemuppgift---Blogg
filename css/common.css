@@ -23,11 +23,15 @@ main {
 
 h1 {
     color: var(--color5);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 
 h2 {
     color: var(--color5);
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h3 {
