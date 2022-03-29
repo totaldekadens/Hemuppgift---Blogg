@@ -99,6 +99,10 @@ main {
 
 }
 
+.contentPost {
+    margin-bottom: 60px;
+}
+
 }
 
 @media screen and (max-width: 400px) { 

@@ -27,12 +27,27 @@ main {
 }
 
 .text p {
-    line-height: 1em;
-max-height: 2em;
+line-height: 16px;
+max-height: 32px;
 display: -webkit-box;
 -webkit-box-orient: vertical;
 -webkit-line-clamp: 2;
 overflow: hidden;
+}
+
+.date {
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.date p {
+    margin: 0px;
+    font-size: 10px;
+}
+
+.title a h3 {
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 600px) { 

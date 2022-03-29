@@ -1,7 +1,7 @@
 main {
     margin-top: 110px;
 
-;}
+}
 
 .profilePic {
     width: 220px;
@@ -34,6 +34,10 @@ p {
 
     .profilePic {
         width: 150px;
+    }
+
+    main {
+        margin-top: 90px;
     }
     
     }
