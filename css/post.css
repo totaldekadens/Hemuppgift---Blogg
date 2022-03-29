@@ -4,16 +4,20 @@ main {
 }
 
 .postPic {
-    width: 150px;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .postPic img {
     width: 100%;
+    height: 100%;
     object-fit: contain;
 }
 
 .contentPost {
     width: 60vw;
+    margin-bottom: 100px;
 }
 
 .post {
@@ -23,7 +27,6 @@ main {
 .back {
     width: 100%;
     justify-content: center;
-    margin-top: 20px;
     cursor: pointer;
 }
 
@@ -31,3 +34,49 @@ main {
     width: 30px;
     object-fit: contain;
 }
+
+footer {
+    position: relative;
+}
+
+.direction {
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.next, .previous {
+    width: 70px;
+}
+
+.next img, .previous img {
+    width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 600px) { 
+
+    .contentPost {
+        width: 80vw;
+    }
+
+    
+    }
+
+@media screen and (max-width: 500px) { 
+
+main {
+    margin-top: 110px;
+}
+
+
+}
+
+@media screen and (max-width: 400px) { 
+
+    .back a p {
+        font-size: 12px;
+    }
+    
+    
+    }

@@ -35,11 +35,11 @@ h3 {
 }
 
 p {
-    color: #557A95;
+    color: var(--color1);
 }
 
 strong {
-    color: #4b6c84;
+    color: #57545c;
 }
 
 .flex {

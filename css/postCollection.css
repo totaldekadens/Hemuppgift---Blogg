@@ -4,7 +4,8 @@ main {
 }
 
 .postPic {
-    width: 150px;
+    display: flex;
+    width: 100px;
 }
 
 .postPic img {
@@ -13,11 +14,16 @@ main {
 }
 
 .contentPost {
-    width: 60vw;
+    width: 90%;
 }
 
+.bread {
+    width: 80%;
+}
 .post {
     gap: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(191, 191, 191);
 }
 
 .text p {
@@ -27,4 +33,16 @@ display: -webkit-box;
 -webkit-box-orient: vertical;
 -webkit-line-clamp: 2;
 overflow: hidden;
+}
+
+@media screen and (max-width: 600px) { 
+
+    .postPic {
+        width: 80px;
+    }
+
+    main {
+        margin-top: 110px;
+    }
+    
 }
